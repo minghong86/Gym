@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* sans-serif指的是一种字体 */
+    font-family: 'Poppins',sans-serif;
+}
+.container{
+    position: relative;
+    display: flex;
+    background: #000;
+}
+.container span{
+    position: sticky;
+    top: 0;
+    width: 10%;
+    height: 100vh;
+    background: rgb(0, 60, 255);
+    /* 滚动的时候分开上来 */
+    margin-top: calc(100vh * var(--i));
+}
